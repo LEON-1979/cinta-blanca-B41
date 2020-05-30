@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+h1{ /* seleccionando un elemento html por su nopmbre etiqueta no es recomendabler*/
+    color: blue;
+   /* background-image: linear-gradient(rgb(225, 236, 225),rgb(94, 94, 104)); */
+   border-style: dotted;
+}
+.menu{ /*a travez de clases */
+    background-color: black;
+    text-align: center;
+ 
+
+}
+#principal{/*a travez de su id*/
+    background-color: grey;
+    
+}
+
+.titulo{
+    text-align: center;
+}
+
+.link {
+    display: inline-block;
+    margin: 10px 20px 0 15px;
+    /* margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px; */
+}
+.imagen{
+    width: 40% ;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-top: 4%;
+    display: inline-block;
+}
+.green{
+    
+        vertical-align: top;
+        display: inline-block;
+        width: 47%;
+        color: green;
+        margin: 4%;
+        padding: 10px;
+        border: 2px solid black;
+      }

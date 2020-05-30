@@ -1,0 +1,43 @@
+.header{
+   
+background-color: rgb(85, 78, 78);
+}
+
+
+.titulo{
+    text-align: center;
+    color: cornflowerblue;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 30px 0;
+}
+
+.articu{
+    text-align: center;
+    padding 30px 0;
+   /* margin-top: 20 px;
+    margin-left: 200px;
+    margin-right: 200px;*/
+}
+
+.cuerpo{
+    background-color: cyan;
+    margin-left: 80px;
+}
+
+.nom{
+    text-align: left;
+    
+
+
+}
+.vs{
+    text-align: center;
+    display: inline;
+}
+.pc{
+    text-align: right;
+    
+}

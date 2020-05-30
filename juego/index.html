@@ -1,0 +1,68 @@
+><!DOCTYPE html>
+<html lang="es">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Piedra, Papel o tijera</title>
+  </head>
+ <body class="cuerpo">
+    <header class="header">
+        <h1 class="titulo">
+            Piedra, Papel o tijeras
+        </h1>
+        <hr>
+    </header>
+    <main>
+        <article class="articu">
+            <label class="start-leabel" for="nom">
+              Escribe tu nombre  
+            </label>
+            
+            <input id=nom type="text">
+            <button>Jugar</button>
+        </article>
+
+
+        <!--Seccionn de juego-->
+        <article>
+            <!--usuario-->
+            <section>
+                <!--<img src="./images/rock.png" alt="Piedra">
+                <img src="./images/toilet-paper.png" alt="Papel">
+                <img src="./images/scissors.png" alt="tijeras">-->
+                <h2 class="nom">Santiago</h2>
+                <label for="Selecciona-arma">Selecciona tu Arma</label>
+                <select name="" id="Selecciona-arma">
+                    <option value="Piedra">Piedra</option>
+                    <option value="Papel">Papel</option>
+                    <option value="Tijera">Tijera</option>
+                </select>
+
+            </section>
+ 
+            <section class="pc"><!--Computador-->
+                <h2>Computadora</h2>
+                <h3>¿?</h3>
+
+            </section>
+
+            <section class="vs"><!--Versus-->
+                <h2>
+                    VS
+
+                </h2>
+            </section>
+
+            <section>
+                <button>Jugar</button>
+            </section>
+
+        </article>
+
+
+    </main>
+
+</body>
+</html>
