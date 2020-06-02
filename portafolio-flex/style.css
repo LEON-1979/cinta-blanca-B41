@@ -1,0 +1,45 @@
+* {
+  background-color: darkslateblue;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  left: 200%;
+}
+
+body {
+  background-color: dimgrey;
+}
+
+.titulo {
+  text-align: center;
+}
+
+
+
+.father {
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  align-content: flex-end;
+  background-color: rgb(250, 250, 250);
+  width: 100px;
+}
+.imagen {
+  width: 40%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 4%;
+  display: inline-block;
+}
+.box {
+  margin: 50px;
+  width: 50px;
+  height: 50px;
+  background-color: forestgreen(500, 500, 500);
+}
+.three {
+  height: initial;
+  align-self: flex-start;
+}
