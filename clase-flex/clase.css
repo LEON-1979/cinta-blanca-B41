@@ -15,8 +15,8 @@ body{
 
 .father{
     display: flex;
-      background-color: rgb(223, 105, 160);
-      height: 100%;
+    background-color: rgb(223, 105, 160);
+    height: 100%;
 
     /* justify-content: -- modificamos elemntos hijos en su eje x;*/
     /* justify-content: flex-start;*/
