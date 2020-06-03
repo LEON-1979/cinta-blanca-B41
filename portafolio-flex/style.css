@@ -43,6 +43,7 @@ html, body {
   flex-wrap: wrap;
 }
 .three {
+  background-color: lime;
   height: initial;
   align-self: flex-start;
 }
