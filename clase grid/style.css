@@ -33,6 +33,16 @@ body{
     grid-row: 1/4;    
 
 }
+
+.title{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.title:hover{
+    color: lime(50,129,155,0.5);
+
+}
+
 .two{
     background-color: indigo;
     grid-column: 3/5;
@@ -49,5 +59,17 @@ body{
     grid-column: 1/5;
     grid-row: 4/5;
 }
+@media (max-width: 700px){
+    .father{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+    }
+    .one, .two, .three, .fuor{
+        grid-column: 1;
+        grid-row: auto;
+    }
+.title{
+    color: mediumblue;
+}    
 
-    
+}

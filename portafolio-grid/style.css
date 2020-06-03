@@ -30,9 +30,20 @@ body{
 .one{
     background-color: mediumseagreen;
     grid-column: 4/3;
-    grid-row: 4/4;    
+    grid-row: 4/4; 
+       
 
 }
+.title{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.title:hover{
+    color: lime(50,129,155,0.5);
+
+}
+
+
 .two{
     background-color: rgb(0, 9, 130);
     grid-column: 1/5;
