@@ -4,27 +4,28 @@
   box-sizing: border-box;
 }
 html,
-body {
-  left: 200%;
+*{
+  background-color: darkslateblue;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body {
-  background-color: dimgrey;
+html, body {
+  height: 100%;
+}
+
+  body{
+    background-color: dimgrey;
 }
 
 .titulo {
   text-align: center;
 }
 
-
-
 .father {
-  justify-content: center;
-  flex-wrap: wrap;
   display: flex;
-  align-content: flex-end;
   background-color: rgb(250, 250, 250);
-  width: 100px;
+  width: 100%;
 }
 .imagen {
   width: 40%;
@@ -35,9 +36,11 @@ body {
 }
 .box {
   margin: 50px;
-  width: 50px;
+  width: 78px;
   height: 50px;
   background-color: forestgreen(500, 500, 500);
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .three {
   height: initial;
