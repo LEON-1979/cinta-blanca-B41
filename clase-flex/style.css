@@ -15,7 +15,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    align-content: flex-end;
+    align-content: flex-start;
     flex-direction: row;
     background-color: lawngreen;
     height: 100%
