@@ -1,42 +1,89 @@
-.header{
-   
+body{
+    font-family: "roboto-moto", monospace;
+    background-color: tan;
+}
+
+.header{   
 background-color: rgb(61, 8, 238);
 }
 
-
-.titulo{
+.start-btn{
+    background-color: wheat;
+    color: violet;
+    border: 0;
+    padding: 10px 40px;
+    border-radius: 7px;
+}
+.start-btn:hover{
+    color: white;
+    background-color: turquoise;
+}
+.game{
+    display: none;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.game-user{
+    display: grid;
+    justify-content: flex-end;
+        width: 33.3%;
+}
+.game-user-name{
+    font-size: 20px;
     text-align: center;
-    color: darkgoldenrod;
-    font-size: 32px;
-    font-family: Arial, Helvetica, sans-serif;
+}
+.game-user-laber{
+    font-size: 16px;
+    text-align: center;
+    margin: 10px;    
+}
+.game-user-slect{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    padding: 7px 15 px;
+    border-radius: 7px;
+    border: 1px solid; 
+    cursor: pointer; 
+    width: 200px; 
+    margin: 0 auto;
+}
+.game-versus{
+    font-size: 24px;
     font-weight: 700;
-    text-transform: uppercase;
-    padding: 30px 0;
-}
-
-.articu{
-    text-align: center;
-    padding 30px 0;
-   /* margin-top: 20 px;
-    margin-left: 200px;
-    margin-right: 200px;*/
-}
-
-.cuerpo{
-    background-color: darkgrey;
-    margin-left: 80px;
-}
-
-.nom{
-    text-align: left;
-
-
-}
-.vs{color: darkred;
-    text-align: center;
-    display: inline;
-}
-.pc{
-    text-align: right;
+    width: 33.3%;
     
+}
+.game-computer{
+    display: grid;
+    justify-content: flex-start;
+    width: 33.3%;
+
+}
+.game-computer-name  
+.game-computer-weapon{
+    font-size: 20px;
+    text-align: center;
+}
+/*media querie*/
+
+@media (max-width: 700px){
+    .game{
+        display: -moz-grid;
+    }
+    .game-user{
+        justify-content: initial;
+    }
+}
+
+.game-boton{  
+    margin-top: 30px; 
+    background-color: wheat;
+    color: violet;
+    border: 0;
+    padding: 10px 40px;
+    border-radius: 7px; 
+
+
 }
