@@ -19,7 +19,7 @@ body{
    padding: 30px 0;
    text-align: center;
 }
-.start-leabel{
+.start-label{
     display: block;
     font-size: 22px;
 
@@ -52,18 +52,18 @@ body{
 .game-user{
     display: flex;
     justify-content: flex-end;
-        width: 33.3%;
+    width: 33.3%;
 }
 .game-user-name{
     font-size: 20px;
     text-align: center;
 }
-.game-user-laber{
+.game-user-label{
     font-size: 16px;
     text-align: center;
     margin: 10px;    
 }
-.game-user-slect{
+.game-user-select{
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
