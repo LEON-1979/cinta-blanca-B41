@@ -3,6 +3,12 @@
 //string (cadena de texto)
 var limon="un limon";
 
+console.log(limon)
+
+limon ="dos limones"
+console.log(limon)
+
+
 //number
 var azucar=20;
 
@@ -22,7 +28,20 @@ var limonero={
     edad: 40,//atributos o propiedad
     estatura: "170cm",//atributos o propiedad
 }
+
+console.log(limonero.nombre)
+limonero.nombre="pedro"
+console.log(limonero.nombre)
+
+
 console.log(limonero.nombre + " tiene una estatura " + limonero.estatura)//concatenar strings (unir cadena de texto)
 
-var nombre = prompt("escribe tu nombre")
-console.log(nombre)
+//var nombre = prompt("escribe tu nombre")
+
+//console.log("hola " + nombre)
+
+
+
+
+
+
