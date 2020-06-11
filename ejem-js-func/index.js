@@ -20,7 +20,7 @@ function centigradosafh(centigrados){
 }
 
         //centigradosfarenheis
-}
+
 
 var input = document.getElementById("centigrados");
 
