@@ -1,14 +1,16 @@
+// objetos
 var mesa={
-    altura="98cm",
+    altura="90cm",
     ancho = "70cm",
     color ="cafe",
     patas = 4,
     silas: ["sillas1", "sillas2", "silla3", "silla4"],
     marca: {    
-        nombre:"rimax",
-        vendedor:"andres",
+        nombre:"Rimax",
+        vendedor:"Andres",
     },
     a_la_ventya: true,
+
     expandir:function(){
         return"se expandio";
     },
@@ -18,29 +20,28 @@ mesa.altura="75cm";
 
 //console.log(mesa.color)
 
-console.log(mesa.expandir())
+//console.log(mesa.expandir())
 
 //html y javascript
 
+//ejercicio titulo
+
 var titulo=document.getElementById("titulo");
-var boton=document.getElementById("boton");
+var btn=document.getElementById("boton");
 
-
-//console.log(boton)
-
-function cambiartitulo(){
+function cambiar_titulo(){
     titulo.innerHTML="se cambio el texto";
 }
-boton.addEventListener("click", cambiartitulo)
+boton.addEventListener("click", cambiar_titulo)
 
-//ejercico
+//ejercico color
 
 var color=document.getElementById("input_color");
 
-var boton2=document.getElementById("boton2");
+var btn_color=document.getElementById("boton_color");
 
 function cambiar_color() {
     var color_elegido =color.value;
-    titulo.style.color=color_elegido,
+    titulo.style.color=color_elegido
 }
-boton2.addEventListener("click", cambiar_color)
+btn_color.addEventListener("click", cambiar_color)

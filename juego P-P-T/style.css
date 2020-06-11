@@ -2,25 +2,23 @@
     font-family: "roboto-moto", monospace;
     background-color: rgb(230, 234, 240);
 }
-
-.header{
-    background-color: rgb(238, 235, 243);
-    box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.2);
+.btn {
+  background-color: #fa8072;
+  color: white;
+  border: 0;
+  padding: 10px 40px;
+  border-radius: 7px;
+  margin: 30px auto 0;
+  max-width: 120px;
+}
+.btn {
+  color: white;
+  background-color: #a15048;
 }
 
-.btn {
-    background-color: #fa8072;
-    color: white;
-    border: 0;
-    padding: 10px 40px;
-    border-radius: 7px;
-    margin: 30px auto 0;
-    max-width: 120px;
-  }
-.btn {
-    color: white;
-    background-color: #a15048;
-  }
+.header{
+    background-color: rgb(238, 235, 243);    
+}
 
 .header-title{
     font-size: 32px;
@@ -32,10 +30,12 @@
     padding: 30px 0;
     text-align: center;
 }
+
 .star-label{
     display: block;
     font-size: 22 px;
 }
+
 .start-input{
     display: block;
     margin: 15px auto;
@@ -46,16 +46,28 @@
 
 .game{
     display: none; /* Para mostrar cambiar a flex */
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  margin-top: 50px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
 }
 .game-user{
     display: grid;
-  justify-content: flex-end;
-  width: 33.3%
-    
+    justify-content: flex-end;
+    width: 33.3%    
 }
+
+.game-user-name{
+  /*text-transform: uppercase;*/
+  font-size: 20px; 
+  text-align: center;
+} 
+.game-user-label{
+  /*text-transform: uppercase;*/
+  font-size: 16px;
+  text-align: center;
+  margin: 10px 0; 
+}
+
 .game-user-select{ background: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNC45NSIgaGVpZ2h0PSIxMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxLjQxIDQuNjcgMi40OCAzLjE4IDMuNTQgNC42NyAxLjQxIDQuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy41NCA1LjMzIDIuNDggNi44MiAxLjQxIDUuMzMgMy41NCA1LjMzIi8+PC9zdmc+)
     no-repeat 95% 50%;
   -moz-appearance: none; /*prefijo para eliminar estilos por defecto en firefox*/
@@ -66,24 +78,12 @@
   border: 1px solid #adadad;
   cursor: pointer;
   width: 200px;
-  margin: 0 auto
-    
-}
-.game-user-name{
-    text-transform: uppercase;
-    font-size: 20px; 
-    text-align: center;
-}
-.game-user-label{
-    text-transform: uppercase;
-    font-size: 16px;
-    text-align: center;
-    margin: 10px 0; 
+  margin: 0 auto    
 }
 
 .game-versus{
   font-size: 24px;
-  font-weight: 200;
+  font-weight: 700;
   text-align: center;
   width: 33.3%;   
 }
@@ -101,11 +101,12 @@
 }
 
 @media (max-width: 700px){
-     flex-direction: color: 
-    }
+}
+
+@media (max-width: 700px){
+     
     .game{
       flex-direction: column;
-
     }
     .game-user {
       justify-content: initial;
