@@ -16,19 +16,19 @@
         <hr />
         </header>
         <main>
-            <article class="start">
+            <article id="start" class="start">
         
             <label class="start-label" for="nombre">
                  escribe tu nombre
             </label>
                 <input class="start-input" id="nombre" type="text"/>
-                <button class="btn">jugar</button> 
+                <button id="start_btn" class="btn">jugar</button> 
             </article>
             
-            <article class="game">
+            <article id="game" class="game">
 
             <section class="game-user">
-                <h2 class="game-user-name">leon mesa</h2>
+                <h2 id=game_user_name class="game-user-name">leon mesa</h2>
                 
                 <label class="game-user-label" for="selecciona-arma">selecciona tu arma</label>
                 <select class="game-user-select" name="" id="selecionar arma">
@@ -38,17 +38,18 @@
                 </select>
             </section>
             
-                <h2 class="game-versus">vs</h2>
+                <h2 id ="mensaje" class="game-versus">vs</h2>
 
                 <section class="game-computer">
                 <h2 class="game-computer-name">computadora</h2>
-                <h3 class="game-computer-weapon">¿?</h3>
+                <h3 id="game_user_weapon" class="game-computer-weapon">¿?</h3>
                 </section>
 
-                <button class="btn">jugar</button>
+                <button id="play_btn" class="btn">jugar</button>
              
         </article>          
 
         </main>
+        <script src="./index.js"></script>
     <body>
 </html
