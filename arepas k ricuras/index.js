@@ -4,18 +4,57 @@ var areperuana  = ["arepa", "carne pollo desmechada", "carne res desmechada", "m
 var arevenezolana  = ["arepa", "carne pollo desmechada", "tozineta", "chicharroncitios"];
 
 //precios
-console.log(arecolombiana)=9700;
-console.log(aremexicana)=9000;
-console.log(areperuana)=9000;
-console.log(arevenezolana)=10500;
+var arecolombiana=9700
+var aremexicana=9000
+var areperuana=9000
+var arevenezolana=10500
 
 
 
 //suma
 var suma = arecolombiana + arevenezolana + areperuana + aremexicana
 
+
+
+
 //resultado
 document.getElementById("resultado").innerText=suma
+
+
+//contador
+var arepas=["arecolombiana", "aremexicana", "arevenezolana", "areperuana"];
+
+
+
+var btn =document.getElementById("btn")
+
+function init(){
+for(i=0; i<arepas.length; i++){
+    if(arepas[i].innerText== precio)
+    console.log =arepas(1);
+   }
+}
+
+//btn.addEventListener("clik", init)
+
+
+var numeros = (1, 3, 24, 12, 33, 65, 89, 92)
+
+function suma(){
+
+    var acumulador=0
+
+    
+    for(i=0; i<numeros.length;i++){
+
+        acumulador=acumulador + numeros(i)
+    }
+    return acumulador
+
+}
+
+
+
 
 
 //promocion
@@ -35,7 +74,7 @@ if (num1>num2) {
 
         alert(num2="numero 2 es mayor");
 }
-btn_calc.addevenlistener("click"),calc
+//*btn_calc.addevenlistener("click"),calc
 
 
 
