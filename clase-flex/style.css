@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: darkslateblue;
+
+}
+html, body{
+    height: 100%;
+}
+body{
+    background-color: dimgrey;
+}
+.father{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-direction: row;
+    background-color: lawngreen;
+    height: 100%
+}
+.box {
+
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    background-color: mediumorchid;
+}
+.three{
+    height: auto;
+    align-self: stretch;
+    order: 2;   
+}
+
+.one{
+    order: 3;
+}
+
+.two{
+    order: 4;
+}
+
+.fuor{
+    order: 1;
+}

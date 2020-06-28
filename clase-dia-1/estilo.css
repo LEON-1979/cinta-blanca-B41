@@ -1,0 +1,19 @@
+.padree{
+    text-align: center;
+}
+.dat{
+    font-family: monospace;
+    color: indigo;
+    
+}
+.nomb{
+display: inline block;
+}
+.imagen{
+    display: inline-block;
+    padding: 20%;
+    height: 10%;
+    width: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
